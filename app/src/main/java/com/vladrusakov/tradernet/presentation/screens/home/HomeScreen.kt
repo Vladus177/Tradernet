@@ -1,4 +1,4 @@
-package com.vladrusakov.tradernet.presentation.screens
+package com.vladrusakov.tradernet.presentation.screens.home
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

@@ -9,8 +9,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
-import com.vladrusakov.tradernet.presentation.screens.AssetDetailScreen
-import com.vladrusakov.tradernet.presentation.screens.HomeScreen
+import com.vladrusakov.tradernet.presentation.screens.assetdetail.AssetDetailScreen
+import com.vladrusakov.tradernet.presentation.screens.home.HomeScreen
 import com.vladrusakov.tradernet.util.Constants.LEFT_SLIDE
 import com.vladrusakov.tradernet.util.Constants.PRIMARY_FADE_SPEED
 import com.vladrusakov.tradernet.util.Constants.PRIMARY_SLIDE_SPEED
