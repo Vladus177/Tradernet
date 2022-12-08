@@ -11,5 +11,5 @@ enum class Screen(
     @DrawableRes val icon: Int? = null
 ) {
     Home(Route.Home, R.string.home_title, R.string.home_title),
-    AssetDetail(Route.AssetDetail, R.string.asset_detail_title, R.string.asset_detail_title)
+    TickerDetail(Route.TickerDetail, R.string.asset_detail_title, R.string.asset_detail_title)
 }

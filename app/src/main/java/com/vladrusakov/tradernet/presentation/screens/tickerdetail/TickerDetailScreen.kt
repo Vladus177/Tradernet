@@ -1,20 +1,20 @@
-package com.vladrusakov.tradernet.presentation.screens.assetdetail
+package com.vladrusakov.tradernet.presentation.screens.tickerdetail
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun AssetDetailScreen(
+fun TickerDetailScreen(
     modifier: Modifier = Modifier,
 ) {
-    AssetDetailBody(
+    TickerDetailBody(
         modifier = modifier
     )
 }
 
 @Composable
-private fun AssetDetailBody(
+private fun TickerDetailBody(
     modifier: Modifier = Modifier,
 ) {
 
@@ -22,6 +22,6 @@ private fun AssetDetailBody(
 
 @Preview
 @Composable
-fun AssetDetailBodyPreview() {
+fun TickerDetailBodyPreview() {
 
 }

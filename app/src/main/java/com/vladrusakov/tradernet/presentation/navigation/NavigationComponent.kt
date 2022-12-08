@@ -9,8 +9,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
-import com.vladrusakov.tradernet.presentation.screens.assetdetail.AssetDetailScreen
 import com.vladrusakov.tradernet.presentation.screens.home.HomeScreen
+import com.vladrusakov.tradernet.presentation.screens.tickerdetail.TickerDetailScreen
 import com.vladrusakov.tradernet.util.Constants.LEFT_SLIDE
 import com.vladrusakov.tradernet.util.Constants.PRIMARY_FADE_SPEED
 import com.vladrusakov.tradernet.util.Constants.PRIMARY_SLIDE_SPEED
@@ -62,10 +62,10 @@ fun NavigationComponent(
         composable(Route.Home.route) {
             HomeScreen(modifier = modifier)
         }
-        composable(Route.AssetDetail.route,
+        composable(Route.TickerDetail.route,
             enterTransition = { enterRightToLeft() },
             popExitTransition = { exitLeftToRight() }) {
-            AssetDetailScreen(modifier = modifier)
+            TickerDetailScreen(modifier = modifier)
         }
     }
 }
